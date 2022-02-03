@@ -1,38 +1,116 @@
-.App {
+/* FONT */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600&display=swap");
+
+/* GENERAL */
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.wrapper {
+  padding: 2rem 0;
+  margin: 0 2rem;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  font-weight: 400;
+}
+h1 {
+  font-size: 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+/* HEADER */
+header .wrapper {
+  border-bottom: 1px dashed black;
+  margin-bottom: 2rem;
+}
+header div {
+  display: flex;
+  align-items: center;
+}
+header img {
+  width: 12rem;
+  margin-right: 4rem;
+}
+
+/* HOME */
+main {
+  margin: 0 auto;
+}
+main ul {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main ul li input,
+main ul li label {
+  margin-right: 0.8rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 2rem;
+}
+form div:first-child {
+  border: 1px solid #ff6347;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+form input {
+  border: 1px dashed black;
+  border-radius: 20px;
+  padding: 0 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* SECTION */
+.done {
+  color: rgb(51, 202, 51);
+  margin-bottom: 2rem;
+}
+.not-done {
+  color: tomato;
+  margin-bottom: 2rem;
+}
+section > div {
+  display: flex;
+  border: 1px dashed black;
+  border-radius: 10px;
+}
+section > div div {
+  flex: 1;
+  padding: 0 1rem;
+  line-height: 1.2rem;
+}
+section > div div:first-child {
+  border-right: 1px dashed black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* FOOTER */
+footer {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+}
+footer div.wrapper {
+  margin-top: 1px dashed black;
+  display: flex;
+  justify-content: space-between;
+}
+footer div.wrapper > div:nth-child(2) {
+  text-align: end;
 }
