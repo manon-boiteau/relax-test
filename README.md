@@ -1,14 +1,60 @@
+# TO DO LIST ✏️
 
-#TODO LIST
+🌨 February 2022  
+✨ Frontend
 
-L'ojectif de ce test est de réaliser une TODO List ainsi qu'un tableau trié de ces éléments.
+## 🌈 Overview - Welcome dude
 
-- `Utiliser des components`
-- `Utiliser jsx`
+---
 
-Le visuel est défini comme suit (`cf fichier testreact.jpg): Avoir une liste d'éléments checkbox + text. A la fin de cette list un CTA "+" permet d'afficher un input dans lequel il est possible de saisir un texte. Lorsque l'on click sur l'on enfonce la touche "Entrée" cet élément est ajouté à la liste citée plus haut.
+To do list made for a technical test.  
+1 screen for web only (responsive needs to be done).
 
-Pouvoir visualiser un tableau à deux colonnes: DONE/NOT DONE. Dans chaque colonne on trouvera les éléments triés de la liste citée plus haut.
+![Screen 1](src/assets/images/todo-list.png)
 
-###Bonus 
-Permettre le drag and drop des éléments du tableau de la colonne DONE à la colonne NOT DONE et inversement (les éléments de la liste seront donc cochés ou décochés lors du drag and drop).
+## 👩🏻‍💻 Tasks
+
+---
+
+✘ Use JSX and components  
+✘ Create a task : add a task, checkbox, delete a task  
+✘ Put tasks into a 2 columns table: "done" and "not done"
+
+## 📚 Stacks
+
+---
+
+[Javascript](https://www.w3schools.com/js/default.asp)  
+[ReactJS](https://fr.reactjs.org/docs/getting-started.html)  
+[HTML5](https://www.w3schools.com/html/default.asp)  
+[CSS3](https://www.w3schools.com/css/default.asp)
+
+## To be continued
+
+---
+
+✘ Drag & drop feature for moving tasks from "done" column to "not done" column or the other way around.  
+✘ Responsive design
+
+## 🗝 Installation and usage
+
+---
+
+Be sure, you have installed all dependencies and applications to run the project on your computer.
+
+### 🚙 Running the project
+
+1️. Clone this repository
+
+`git clone https://github.com/manon-boiteau/relax-test.git`  
+`cd relax-test`
+
+2️. Install packages
+
+`npm install`  
+or  
+`yarn`
+
+3️. When installation is complete:
+
+`yarn start`

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Table from "./Table";
-
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faTrash, faList, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

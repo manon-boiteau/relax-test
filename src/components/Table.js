@@ -1,8 +1,8 @@
 const Table = ({ taskList }) => {
-  const doneTasks = taskList.filter((doneTask, index) => {
+  const doneTasks = taskList.filter((doneTask) => {
     return doneTask.isCheck;
   });
-  const notDoneTasks = taskList.filter((doneTask, index) => {
+  const notDoneTasks = taskList.filter((doneTask) => {
     return doneTask.isCheck === false;
   });
 
